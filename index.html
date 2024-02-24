@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>6hostown</title>
-      <style>
-        body {
-          width: 100vw;
-          height: 100vh;
-        }
-        img {
-          max-width: 100%;
-          max-height: 100%;
-        }
-      </style>
-   </head>
-   <body>
-      <img src="./b/pipe.jpeg" />
-   </body>
+  <head>
+    <title>6hostown</title>
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+    <script>
+      const isDev = window.location.pathname.substring(0, 3) === "/C:";
+      window.location.href = isDev ? "./b/index.html" : "./b";
+    </script>
+  </head>
+  <body>
+    <img src="./b/pipe.jpeg" />
+  </body>
 </html>
