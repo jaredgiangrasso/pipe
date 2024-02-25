@@ -1,0 +1,41 @@
+.mainContentWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContent {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  width: 100%;
+}
+
+.pictureInformationWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.profilePicture {
+  background: url("./pipe.jpeg") 50% 20% no-repeat;
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.statusInformationWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.informationWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
